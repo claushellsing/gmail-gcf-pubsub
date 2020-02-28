@@ -28,4 +28,4 @@ Finally thhe function the will be executed everytime a new mail arrive
 
 From `/pubsub` folder execute the following command from within the google cloud shell
 
->gcloud beta functions deploy watchGmailMessages --runtime=nodejs8 --trigger-topic=<TOPIC> --env-vars-file=env_vars.yaml --project <PROJECT_ID>
+>gcloud beta functions deploy watchGmailMessages --runtime=nodejs8 --trigger-topic=TOPIC --env-vars-file=env_vars.yaml --project <PROJECT_ID>
